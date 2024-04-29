@@ -1,0 +1,30 @@
+2024-04-28 18:38:06.489041-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found (this database is empty); SQL statement:
+select c1_0.id,e1_0.cep,e1_0.bairro,e1_0.complemento,e1_0.ddd,e1_0.gia,e1_0.ibge,e1_0.localidade,e1_0.logradouro,e1_0.siafi,e1_0.uf,c1_0.nome from cliente c1_0 left join endereco e1_0 on e1_0.cep=c1_0.endereco_cep where c1_0.id=? [42104-224]
+2024-04-28 18:38:11.503184-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.endereco_cep,c1_0.nome from cliente c1_0 [42104-224]
+2024-04-28 18:38:20.951821-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ENDERECO" not found (this database is empty); SQL statement:
+select e1_0.cep,e1_0.bairro,e1_0.complemento,e1_0.ddd,e1_0.gia,e1_0.ibge,e1_0.localidade,e1_0.logradouro,e1_0.siafi,e1_0.uf from endereco e1_0 where e1_0.cep=? [42104-224]
+2024-04-28 18:38:40.262712-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ENDERECO" not found (this database is empty); SQL statement:
+select e1_0.cep,e1_0.bairro,e1_0.complemento,e1_0.ddd,e1_0.gia,e1_0.ibge,e1_0.localidade,e1_0.logradouro,e1_0.siafi,e1_0.uf from endereco e1_0 where e1_0.cep=? [42104-224]
+2024-04-28 18:39:14.027107-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found (this database is empty); SQL statement:
+select c1_0.id,e1_0.cep,e1_0.bairro,e1_0.complemento,e1_0.ddd,e1_0.gia,e1_0.ibge,e1_0.localidade,e1_0.logradouro,e1_0.siafi,e1_0.uf,c1_0.nome from cliente c1_0 left join endereco e1_0 on e1_0.cep=c1_0.endereco_cep where c1_0.id=? [42104-224]
+2024-04-28 18:39:24.665804-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found (this database is empty); SQL statement:
+select c1_0.id,e1_0.cep,e1_0.bairro,e1_0.complemento,e1_0.ddd,e1_0.gia,e1_0.ibge,e1_0.localidade,e1_0.logradouro,e1_0.siafi,e1_0.uf,c1_0.nome from cliente c1_0 left join endereco e1_0 on e1_0.cep=c1_0.endereco_cep where c1_0.id=? [42104-224]
+2024-04-28 18:39:52.027260-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ENDERECO" not found (this database is empty); SQL statement:
+select e1_0.cep,e1_0.bairro,e1_0.complemento,e1_0.ddd,e1_0.gia,e1_0.ibge,e1_0.localidade,e1_0.logradouro,e1_0.siafi,e1_0.uf from endereco e1_0 where e1_0.cep=? [42104-224]
+2024-04-28 18:40:03.362795-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ENDERECO" not found (this database is empty); SQL statement:
+select e1_0.cep,e1_0.bairro,e1_0.complemento,e1_0.ddd,e1_0.gia,e1_0.ibge,e1_0.localidade,e1_0.logradouro,e1_0.siafi,e1_0.uf from endereco e1_0 where e1_0.cep=? [42104-224]
+2024-04-28 18:40:04.415631-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ENDERECO" not found (this database is empty); SQL statement:
+select e1_0.cep,e1_0.bairro,e1_0.complemento,e1_0.ddd,e1_0.gia,e1_0.ibge,e1_0.localidade,e1_0.logradouro,e1_0.siafi,e1_0.uf from endereco e1_0 where e1_0.cep=? [42104-224]
+2024-04-28 18:46:40.253839-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.endereco_cep,c1_0.nome from cliente c1_0 [42104-224]
